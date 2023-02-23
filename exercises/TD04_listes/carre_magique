@@ -1,0 +1,9 @@
+carre_mag=[[4,14,15,1],[9,7,6,12],[5,11,10,8],[16,2,3,13]]
+
+carre_pas_mag=[[4,14,15,1],[9,7,6,12],[5,11,10,8],[16,2,7,13]]
+
+def afficheCarre(carre_mag):
+    print("\n",carre_mag[0], "\n", carre_mag[1], "\n",carre_mag[2], "\n",carre_mag[3])
+
+afficheCarre(carre_mag)
+afficheCarre(carre_pas_mag)
